@@ -19,7 +19,7 @@ class StudentFactory extends Factory
         return [
             "name"=>$this->faker->name,
             "age"=>random_int(18,24),
-            "adress"=>$this->faker->address,
+            "address"=>$this->faker->address,
             "telephone"=>$this->faker->phoneNumber,
         ];
     }
